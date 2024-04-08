@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="#main" class="skip-link button">Skip to main</a>
+
+    <main id="main"></main>
+
+    <nav aria-label="On this page">
+        <div>On this page</div>
+        <div>
+            <ul>
+                <li>
+                    <a href="#skip">Skip to content link</a>
+                </li>
+                <li>
+                    <a href="#toc">Table of contents</a>
+                </li>
+                <li>
+                    <a href="#bc">Page breadcrumbs</a>
+                </li>
+                <li>
+                    <a href="#ln">Local navigation</a>
+                </li>
+                <li>
+                    <a href="#global">Global navigation</a>
+                </li>
+            </ul>
+        </div>
+
+        <nav aria-labelledby="tocTitle">
+            <p id="tocTitle">On this page</p>
+        </nav>
+        <nav aria-label="Table of Contents">
+            <p>On this page</p>
+        </nav>
+    </nav>
+    <nav aria-labelledby="tocTitle">
+        <p id="tocTitle">On this page</p>
+        <ul role="list">
+          <li>
+            <a href="#skip">Skip to content link</a>
+          </li>
+          <li>
+            <a href="#toc">Table of contents</a>
+          </li>
+          <li>
+            <a href="#bc">Page breadcrumbs</a>
+          </li>
+          <li>
+            <a href="#ln">Local navigation</a>
+          </li>
+          <li>
+            <a href="#global">Global navigation</a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav aria-label="breadcrumbs">
+        <ul role="list">
+          <li>
+            <a href="/">
+              <svg aria-label="web.dev" role="img">
+                <use href="#webDevLogo" />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="/learn">Learn</a>
+          </li>
+          <li>
+            <a href="/learn/html">Learn HTML!</a>
+          </li>
+        </ul>
+        <share-action authors="@estellevw" data-action="click" data-category="web.dev" data-icon="share" data-label="share, twitter" role="button" tabindex="0">
+          <svg aria-label="share" role="img">
+            <use href="#shareIcon" />
+          </svg>
+          <span>Share</span>
+        </share-action>
+      </nav>
+
+      <nav aria-label="breadcrumbs">
+        <ol role="list">
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/learn">Learn</a>
+          </li>
+          <li>
+            <a href="/learn/html">Learn HTML!</a>
+          </li>
+          <li aria-current="page">
+            Navigation
+          </li>
+        </ol>
+      </nav>
+
+      <li>
+        <a aria-current="page" href="/learn/html/navigation" data-complete="true">
+          <span>010</span>
+          <span>Navigation</span>
+          <svg aria-label="Check" role="img">
+            <use href="#checkmark" />
+          </svg>
+        </a>
+      </li>
+</body>
+</html>
